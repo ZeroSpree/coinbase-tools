@@ -1,0 +1,32 @@
+#coinbaseQuickSetContainer {
+  display: flex;
+  gap: 10px;
+  width: 200px;
+  flex-wrap: wrap;
+
+  position: fixed;
+  z-index: 999999;
+  bottom: 20px;
+  right: 10px;
+}
+
+#coinbaseQuickSetContainer button {
+  width: calc(33.333% - 10px);
+  padding: 4px 8px;
+  background: #55AB79;
+  color: rgb(10, 11, 13);
+  font-weight: 600;
+  border: none;
+  border-radius: 99px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#coinbaseQuickSetContainer button[data-type="sell"] {
+  background: #DF6A70;
+}
+
+#coinbaseQuickSetContainer button[data-type="stopLimit"] {
+  background: #DF6A70;
+  width: 100%;
+}

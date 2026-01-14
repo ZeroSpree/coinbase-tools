@@ -1,0 +1,9 @@
+#order-form-legal-disclaimer,
+[data-testid="navigationItem-referral"],
+[data-testid="navigationItem-futures"],
+[data-testid="navigationItem-more"],
+[data-testid="advanced-global-deposit-button-v2"],
+[aria-label="help"],
+[data-testid="AppSwitcherButton"] {
+  display: none !important;
+}
